@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.hide {
+  display: none;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -12,7 +14,12 @@
   padding: 20px;
   color: white;
 }
-
+.section {
+  border: solid black 1px;
+  width: 40%;
+  margin: 15px auto;
+  padding: 20px;
+}
 .App-title {
   font-size: 1.5em;
 }
